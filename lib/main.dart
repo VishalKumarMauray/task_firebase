@@ -35,7 +35,7 @@ class _AddDataState extends State<AddData> {
       backgroundColor: Colors.black,
       body:Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.end,
           children: [
             SizedBox(height: 56),
             InkWell(
@@ -71,6 +71,7 @@ class _AddDataState extends State<AddData> {
                    fontSize: 25,
                  ),
              ),
+            SizedBox(height: 50),
           ],
         ),
       ),
